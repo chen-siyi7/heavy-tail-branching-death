@@ -1,14 +1,4 @@
 # Complete simulation audit for the cell-death branching-process manuscript.
-#
-# This base-R script:
-#   1. verifies every analytic expression used by the numerical section;
-#   2. verifies the exact finite-time birth-death transition sampler;
-#   3. reruns all stochastic experiments with recorded seeds;
-#   4. regenerates all six figures and the data underlying all four tables;
-#   5. writes a machine-readable and human-readable audit summary.
-#
-# Audit outputs are written to simulation_audit_output/ first.  Canonical
-# manuscript figures and tables should be replaced only after these checks pass.
 
 options(stringsAsFactors = FALSE, scipen = 6)
 
