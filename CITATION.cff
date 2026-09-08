@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the software and its accompanying manuscript."
+type: software
+title: "Reproducibility code for Fixed Cell Death and Annealed Moment Explosion in a Heavy-Tailed Branching Model of Secondary Tumors"
+authors:
+  - family-names: "Chen"
+    given-names: "Siyi"
+abstract: "Base-R numerical experiments and checks for a heavy-tailed branching model with independent cell death."
+keywords:
+  - branching processes
+  - cell death
+  - heavy tails
+  - reproducibility
+  - R
