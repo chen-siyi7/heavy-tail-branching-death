@@ -1,6 +1,3 @@
-# Run the unchanged manuscript audit in an isolated output directory.
-# Usage: Rscript --vanilla run.R [--output-dir PATH]
-
 main <- function() {
   args <- commandArgs(trailingOnly = TRUE)
   if (identical(args, "--help")) {
